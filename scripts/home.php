@@ -1,3 +1,3 @@
-<div class="d-flex mt-5 justify-content-center">
-    <h3>Home</h3>
-</div>
+<?php 
+    require_once __DIR__. '/../inc/navbar.php';
+?>

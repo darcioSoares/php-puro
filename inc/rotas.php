@@ -2,8 +2,9 @@
 
     return [
         '404',
-        'login',
         'home',
+        'login',
+        'login_submit',
         'logout',
 
         'page1',
