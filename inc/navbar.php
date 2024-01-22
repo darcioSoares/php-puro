@@ -1,4 +1,4 @@
-<nav class="container mt-5 p-4 border rounded-3 shadow-sm bg-light">
+<nav class="container mt-2 p-4 border rounded-3 shadow-sm bg-light">
     <div class="row align-items-center">
         <div class="col">
             <h4>
@@ -11,16 +11,14 @@
             <span>|</span>
             <a href="?rota=page1">Page 1</a>
             <span>|</span>
-            <a href="?rota=page2">Page 2</a>
-            <span>|</span>
-            <a href="?rota=logout">Logout</a>
+            <a href="?rota=create_user">Criacao de usuario</a>         
         </div>
 
         <div class="col text-end">
             <span>
                 <strong> <?= $_SESSION['usuario']?> </strong>
             </span>
-            <span>|</span> <a href="?rota=logout">Logout</a>
+            <span>|</span> <a href="?rota=logout">Sair</a>
         </div>
     </div>
 </nav>

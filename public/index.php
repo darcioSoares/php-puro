@@ -36,6 +36,12 @@ switch($rota){
     case 'login_submit':
         $script = 'login_submit.php';
         break;
+    case 'create_user':
+        $script = 'create_user.php';
+        break;
+    case 'create_user_submit':
+        $script = 'create_user_submit.php';
+        break;
     case 'logout':
         $script = 'logout.php';
         break;
@@ -48,7 +54,6 @@ switch($rota){
     case 'page2':
         $script = 'page2.php';
         break;
-
 }
 
 //carregamento de script permanentes

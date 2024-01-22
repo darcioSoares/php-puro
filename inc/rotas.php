@@ -5,6 +5,8 @@
         'home',
         'login',
         'login_submit',
+        'create_user',
+        'create_user_submit',
         'logout',
 
         'page1',
